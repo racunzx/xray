@@ -1,0 +1,15 @@
+ green " ====================================================="
+    green " Description: xray + tcp + xtls one-click installation script"
+    green " System: support centos7/debian9+/ubuntu16.04+     "
+    green " by atrandys www.atrandys.com"
+    green " ====================================================="
+    echo
+    green " 1. Install xray + tcp + xtls"
+    green " 2. Update xray"
+    red " 3. Delete xray"
+    green " 4. View configuration parameters"
+    yellow " 0. Exit"
+    echo
+    read -p "Enter a number:" num
+    case "$num" in
+    1)
